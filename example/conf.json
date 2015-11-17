@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "digital": [
+      {
+        "pin": 2,
+        "debounce": 100,
+        "assign": [
+          {
+            "type": "keyboard",
+            "high":{
+              "send": " ",
+              "fire": "continuousHack"
+            },
+            "low": {
+              "send": false,
+              "fire": "once"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
