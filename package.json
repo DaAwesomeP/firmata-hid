@@ -1,6 +1,6 @@
 {
   "name": "firmata-hid",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A program to translate the Firmata protocol to keyboard and mouse events",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,6 @@
     "usb",
     "emulator"
   ],
-  "private": true,
   "author": [
     {
       "name": "DaAwesomeP",
