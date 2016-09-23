@@ -1,6 +1,6 @@
 {
   "name": "firmata-hid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A program to translate the Firmata protocol to keyboard and mouse events",
   "main": "index.js",
   "bin": {
