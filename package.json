@@ -4,7 +4,10 @@
   "description": "A program to translate the Firmata protocol to keyboard and mouse events",
   "main": "index.js",
   "bin": {
-    "firmata-hid": "./index"
+    "firmata-hid": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
   },
   "homepage": "https://github.com/DaAwesomeP/firmata-hid/",
   "repository": {
